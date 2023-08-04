@@ -3,3 +3,131 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Dm Sans", Trebuchet MS, sans-serif;
+}
+
+h1,
+p {
+  padding-bottom: 8px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 16px 10%;
+  color: #f9faf8;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 66px 10%;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+}
+
+#sign-up {
+  background-color: rgb(0, 110, 255);
+  border: none;
+  padding: 4px 16px;
+  border-radius: 4px;
+  color: #f9faf8;
+}
+
+.info-cont {
+  padding: 66px 10%;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 16px;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+ul {
+  list-style: none;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quote {
+  padding: 66px 10%;
+  background-color: #e5e7eb;
+}
+
+#author {
+  padding-left: 300px;
+}
+
+.call {
+  margin: 66px 10%;
+  padding: 33px 33px;
+  border-radius: 4px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
+  align-items: center;
+}
+#call {
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 4px 16px;
+  color: #f9faf8;
+}
+
+.fouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 66px;
+  padding: 16px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.main-img {
+  width: 500px;
+  height: 250px;
+  background-color: gray;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(67, 208, 255);
+  border-radius: 8px;
+}
+.img ~ p {
+  width: 150px;
+  text-align: center;
+}
